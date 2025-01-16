@@ -12,7 +12,7 @@ Installation:
                     cd Visualize-Activation-Maps
 
   Install dependencies:
-                    pip install -r requirements.txt
+                   ``pip install -r requirements.txt``
                     
 Usage:
   1.Train the model:
