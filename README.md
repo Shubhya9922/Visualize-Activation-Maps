@@ -5,7 +5,16 @@ NOTE :
       Dataset Setup:
                     To train and test the model, download the FER-2013 dataset from Kaggle: FER-2013 Dataset.
                     Once downloaded, place the dataset in the project directory under the folder data/fer2013.
- 
+
+Installation:
+  Clone the repository:
+                    git clone https://github.com/yourusername/emotion-detection-with-gradcam.git
+                    cd emotion-detection-with-gradcam
+
+  Install dependencies:
+                    pip install -r requirements.txt
+                    
+Usage:
   1.Train the model:
           Load the FER 2013 dataset and preprocess it using ImageDataGenerator.
           Train the CNN model using the provided script.
@@ -17,3 +26,12 @@ NOTE :
 
   3.Evaluate the model:
           Use confusion matrix and classification report to assess model performance.
+
+🎯 Outputs:
+Original Image: The input image used for prediction.
+Grad-CAM Heatmap: Highlights regions of interest that influence the model's decision.
+Superimposed Image: Combines the heatmap with the original image for a clearer visualization.
+
+📖 References:
+FER 2013 Dataset
+Grad-CAM Paper
