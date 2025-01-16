@@ -8,8 +8,8 @@ NOTE :
 
 Installation:
   Clone the repository:
-                    git clone https://github.com/yourusername/emotion-detection-with-gradcam.git
-                    cd emotion-detection-with-gradcam
+                    git clone https://github.com/Shubhya9922/Visualize-Activation-Maps.git
+                    cd Visualize-Activation-Maps
 
   Install dependencies:
                     pip install -r requirements.txt
