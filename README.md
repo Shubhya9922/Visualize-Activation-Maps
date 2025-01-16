@@ -1,5 +1,10 @@
 # Visualize-Activation-Maps
   This project demonstrates the use of Grad-CAM (Gradient-weighted Class Activation Mapping) to visualize activation maps in a Convolutional Neural Network (CNN) for emotion detection. By examining these heatmaps, we gain insights into how the model processes facial features to predict emotions, identifying which regions of an image contribute the most to its decisions.
+
+NOTE :
+      Dataset Setup:
+                    To train and test the model, download the FER-2013 dataset from Kaggle: FER-2013 Dataset.
+                    Once downloaded, place the dataset in the project directory under the folder data/fer2013.
  
   1.Train the model:
           Load the FER 2013 dataset and preprocess it using ImageDataGenerator.
